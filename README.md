@@ -31,10 +31,8 @@ This project implements a real-time weather station using a Raspberry Pi Pico (R
 | Anemometer (reed)          | Wind speed pulses              | GP2      | 4            |
 | Rain gauge (reed)          | Rain tip pulses                | GP3      | 5            |
 | DS18B20 OneWire bus        | Air & soil temperature         | GP4      | 6            |
-| I²C SDA (BME280, BH1750,
-VEML6075, SGP30)             | I²C data                       | GP0      | 1            |
-| I²C SCL (BME280, BH1750,
-VEML6075, SGP30)             | I²C clock                      | GP1      | 2            |
+| I²C SDA (BME280, BH1750, VEML6075, SGP30)             | I²C data                       | GP0      | 1            |
+| I²C SCL (BME280, BH1750, VEML6075, SGP30)             | I²C clock                      | GP1      | 2            |
 | Wind Vane (ADC0)           | Analog voltage (0–3.3 V)       | GP26     | 31           |
 | Soil Moisture (ADC2)       | Analog voltage (0–3.3 V)       | GP28     | 34           |
 | UART1 TX (PMS5003)         | Serial data output             | GP8      | 11           |
